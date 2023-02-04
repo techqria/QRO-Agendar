@@ -1,13 +1,10 @@
-import './App.css';
-import { Menu } from './components/Menu.js'
 import { Route, Routes, BrowserRouter as Router, Navigate } from "react-router-dom";
 import Dashboard from './pages/dashboard'
 import Config from './pages/config'
 import Employees from './pages/employees'
 import Diary from './pages/diary'
-
-
-
+import './App.css';
+import { Menu } from "./components/menu";
 
 function App() {
   return (
